@@ -1,0 +1,93 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.title
+{
+    text-align: center;
+    padding: 50px 0px 20px;
+}
+
+.title h1
+{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 30px;
+}
+
+.container
+{
+    width: 50%;
+    height: 400px;
+    background: white;
+    margin: 0 auto;
+    border: 2px solid white;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+.container .left
+{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: url(logo.png);
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.container .right
+{
+    float: right;
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.formBox
+{
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    height: 400px;
+    background: white;
+}
+
+.formBox p
+{
+    margin: 0;
+    padding:0;
+    font-weight: bold;
+    color: #a6af13
+}
+
+.formBox input
+{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #a6af13;
+    outline: none;
+    height: 40px;
+}
+
+.formBox input:focus
+{
+    border-bottom: 2px solid black;
+}
+
+#login_button
+{
+	border: none;
+    outline: none;
+    height: 40px;
+    color: white;
+    background: black;
+    cursor: pointer;
+    width: 100%;
+}
